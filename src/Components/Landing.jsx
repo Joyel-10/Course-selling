@@ -51,7 +51,7 @@ function Landing() {
             text: "Create interactive reports and earn Power BI certification."
           }
         ].map((course, idx) => (
-          <Col key={idx} xs={12} sm={6} md={3} className="mb-4">
+          <Col key={idx} xs={12} sm={6} md={3} className="mb-10 py-5">
             <Card className="shadow-lg h-100">
               <Card.Img variant="top" src={course.img} />
               <Card.Body>
@@ -73,7 +73,7 @@ function Landing() {
       </Row>
 
       {/* Features Section */}
-      <section className="bg-secondary text-light p-4 mt-5">
+      <section className="bg-secondary text-light p-4 mt-5 mb-5">
         <h3 className="text-center mb-4">Invest In Your Career</h3>
         <Row>
           <Col xs={12} md={4} className="mb-3">
